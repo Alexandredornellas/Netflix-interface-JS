@@ -26,7 +26,7 @@ body {
     font-size: 2em;
 }
 
-header .wrapper{
+header .container{
     align-items: center;
     display: flex;
     height: 50px;
@@ -50,7 +50,7 @@ header nav a:hover{
 /*Main clip*/
 
 main .clip-title {
-    padding: 2rem 0 0 2rem;
+    padding: 10em 0 0 2rem;
 }
 
 main h3{
@@ -59,27 +59,61 @@ main h3{
 
 main .main-clip{
     background-image: linear-gradient(to right, rgba(0,0,0,.90),rgba(200,200,200,.01)100%), url('../images/The\ White\ Stripes\ -\ Hardest\ Button\ to\ Button.png');
-
     background-size: cover;
-    height: 500px;
+    height: 400px;
 }
 
 /* Button */
 
+.action-btn{
+    margin-top: 2em;
+}
+
 button{
-    border-radius: 2px;
+    border-radius: 5px;
     border: none;
-    height: 30px;
-    width: 120px;
-    color: #fff;
-    background-color: var(--dark_grey);
+    cursor: pointer;
+    margin-right: 1em;
+    padding: 10px 30px;
+    transition: .4s ease-out;
+    margin-top: 5px;
 }
 
-button:hover{
-    background-color: var(--light_grey);
-    color: var(--black);
+.playbutton{
+    background-color: rgba(255,255,255,.75);
+    color: black;
 }
 
-button i:hover{
-    color: var(--black);
+.playbutton i{
+    color: black;
+}
+
+.playbutton:hover{
+    background-color: white;
+}
+
+.infobutton{
+    background-color: rgba(0,0,0,.40);
+}
+
+.infobutton:hover{
+    background-color: black;
+}
+
+
+/* Carossel */
+
+
+.carrossel-clips h3{
+    margin-top: -15px;
+    padding-left: 2rem;
+
+}
+
+
+
+.box-clip{
+    height: 100%;
+    width: 100%;
+    display: block;
 }
