@@ -10,8 +10,8 @@ Trying to create an netflix-like interface for DIO Challenges
 
  ✔️ Carrousel
 
- ### Highlight the buttons and improve transitions
- ### Change the style, thats not for movies, but for music.
+ ### ✔️ Highlight the buttons and improve transitions
+ ### ✔️  Change the style, thats not for movies, but for music.
 
 ## 🛠 Tecnology:
 
