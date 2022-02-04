@@ -1,6 +1,6 @@
 # Welcome to NETFLIX-like interface repository.
 Trying to create an netflix-like interface for DIO Challenges 
-- Link para o [site](https://peustratt.github.io/netflix-clone/)
+- Link para o [site](https://alexandredornellas.github.io/Netflix-interface-JS/)
 
 ## 📋 Requirements
 
